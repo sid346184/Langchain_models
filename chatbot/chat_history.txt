@@ -1,0 +1,4 @@
+human: hi my name is sid
+ai: Hi Sid! Welcome—thanks for reaching out. How can I assist you today?
+human: what is my name
+ai: Your name is Sid! Let me know how I can help you today! 😊
