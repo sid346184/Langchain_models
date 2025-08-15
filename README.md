@@ -1,5 +1,4 @@
-
-**# Langchain** 
+**# Langchain**
 
 **### What is Langchain**
 
@@ -159,7 +158,16 @@ Because PromptTemplate has several advantages over fstring like:
 
 ### (For Dynamic Messages, use ChatPromptTemplate)
 
-
 ### Message Placeholder:
 
 ChatPromptTemplate ke andar multiple messages insert krne ke liye use hota h
+
+### Structured Output:
+
+It is used to get the output in different formats such as JSON on anything else
+
+USES:
+
+1. API Building
+2. Data Extraction
+3. Building AI agents
