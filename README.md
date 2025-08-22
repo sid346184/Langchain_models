@@ -171,3 +171,9 @@ USES:
 1. API Building
 2. Data Extraction
 3. Building AI agents
+
+### Why Runnables?
+
+For LLM based applications, since we have many companies having different api calling code but by using runnables you can directly use all the types of api's with minimal code changes. Also some other things such as we need different phases when we are scanning a pdf like PDF load, PDF embedding, etc, so Langchain made different components as helper classes such as TextSplitters, OutputParsers, etc.
+
+Runnables are like a unit of work like lego block you can say
