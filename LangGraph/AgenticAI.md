@@ -52,3 +52,52 @@ Ability to understand and utilize relevant info from the ongoing task.
 ### Memory
 
 ### Supervisor
+
+# Some points
+
+### State -> 
+
+It is a typedDict stored for future inference
+
+### Reducer -> 
+
+
+# LangGraph Execution Model
+
+### Graph Definition
+
+State schema
+
+Nodes 
+
+Edges
+
+### Compilation
+
+.compile()
+
+### Invocation
+
+.invoke(initioal_state)
+
+### Super-steps begin
+
+Execution proceeds in rounds
+
+All active nodes run in parallel
+
+Each returns an update (message) to the state
+
+### Message Passing and Node Activation
+
+The messages are passed to downstream nodes via edges.
+
+Nodes that recieve messages become active for the next round.
+
+### Halting Condition
+
+Execution stops when:
+
+    No nodes are active and
+
+    No messages are in transit
